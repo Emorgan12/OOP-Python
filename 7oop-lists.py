@@ -6,3 +6,4 @@ print(numbers[2])
 print(numbers[-1])
 print(numbers[1:]) #after 0
 print(numbers[1:3]) # 1 and 3 index
+
