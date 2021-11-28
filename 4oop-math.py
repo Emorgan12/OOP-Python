@@ -22,3 +22,4 @@ import math
 print( pow(2, 3) )
 print( math.sqrt(144) )
 print( round(2.7) )
+print(num)
