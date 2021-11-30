@@ -20,6 +20,8 @@ MYVAR = "Syed"
 myvar2 = "Syed"
 # Legal variable names
 
+print("--------------------------------------------------------")
+
 character_name = "Tom"
 character_age = "90"
 

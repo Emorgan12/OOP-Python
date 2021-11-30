@@ -2,6 +2,7 @@ print(3)
 print(-6)
 print(10 % 3) # remainder 
 
+print("--------------------------------------------------------")
 
 print( 2 * 3 )       # Basic Arithmetic: +, -, /, *
 print( 2**3 )        # Basic Arithmetic: +, -, /, *
@@ -9,6 +10,7 @@ print( 10 % 3 )      # Modulus Op. : returns remainder of 10/3
 print( 1 + 2 * 3 )   # order of operations
 print(10 / 3.0)      # int's and doubles
 
+print("--------------------------------------------------------")
 
 num = 10
 num += 200 # +=, -=, /=, *=
