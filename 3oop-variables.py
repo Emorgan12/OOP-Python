@@ -1,3 +1,16 @@
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+
+
+k = 4
+k = "Sally"
+#k will overwrite a
+
+a = 4
+A = "Sally"
+#A will not overwrite a
+
 character_name = "Tom"
 character_age = "90"
 
