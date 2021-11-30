@@ -5,11 +5,20 @@ z = float(3)  # z will be 3.0
 
 k = 4
 k = "Sally"
-#k will overwrite a
+#k will overwrite k
 
 a = 4
 A = "Sally"
 #A will not overwrite a
+
+
+myvar = "Syed"
+my_var = "Syed"
+_my_var = "Syed"
+myVar = "Syed"
+MYVAR = "Syed"
+myvar2 = "Syed"
+# Legal variable names
 
 character_name = "Tom"
 character_age = "90"
