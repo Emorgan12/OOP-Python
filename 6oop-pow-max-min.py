@@ -1,5 +1,5 @@
 
-num =-5
+num =5
 num2=6
 print(abs(num))
 num =7
