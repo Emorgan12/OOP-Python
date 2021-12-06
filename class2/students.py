@@ -6,4 +6,5 @@ Student2=Student("Syed","IT",3.9)
 print (Student1.gpa)
 print(Student1.has_goodgpa())
 
+print (Student1.name, "-", Student1.major, "-",Student1.gpa, "-", Student1.has_goodgpa())
 print (Student2.name, "-", Student2.major, "-",Student2.gpa, "-", Student2.has_goodgpa())
