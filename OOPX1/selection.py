@@ -3,7 +3,7 @@
 # if
 # else 
 # elif - oop-if-else-1
-# case:
+# case: - also Switcher 
 
 x = 21
 y = 210
@@ -27,5 +27,36 @@ if b > a:
   print("d is greater than c")
 else:
   print("d is not greater than c")
+  
 
 
+def week(i):
+    switcher={
+                0:'Sunday',
+                1:'Monday',
+                2:'Tuesday',
+                3:'Wednesday',
+                4:'Thursday',
+                5:'Friday',
+                6:'Saturday'
+             }
+    return switcher.get(i,"Invalid day of week")
+
+
+
+
+# just for example case 
+
+# http_code = "418"
+# match http_code:
+#     case "200":
+#         print("OK")
+#         do_something_good()
+#     case "404":
+#         print("Not Found")
+#         do_something_bad()
+#     case "418":
+#         print("I'm a teapot")
+#         make_coffee()
+#     case _:
+#         print("Code not found")
