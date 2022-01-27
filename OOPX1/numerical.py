@@ -45,3 +45,58 @@ for n in x:
   print(n)
 
 
+x = round(2.47474)
+print(x)
+
+x = round(2.47474, 2)
+print(x)
+
+# Import math Library
+import math
+
+# Return the truncated integer parts of different numbers
+print(math.trunc(3.85))
+print(math.trunc(9.32))
+print(math.trunc(-9.29))
+
+# Round numbers down to the nearest integer
+print(math.floor(0.6))
+print(math.floor(1.4))
+print(math.floor(5.6))
+print(math.floor(-5.3))
+
+# Round a number upward to its nearest integer
+print(math.ceil(2.4))
+print(math.ceil(6.3))
+print(math.ceil(-6.3))
+
+
+# max(n1, n2, n3, ...)
+
+a = (6, 5, 3, 9)
+x = max(a)
+print(x)
+
+a = ("Tom", "Ali", "Alex") # highest value, ordered alphabetically
+x = max(a)
+print(x)
+
+
+# min(n1, n2, n3, ...)
+a = (6, 5, 3, 9)
+x = min(a)
+print(x)
+
+a = ("Tom", "Ali", "Alex") # highest value, ordered alphabetically
+x = min(a)
+print(x)
+
+# list.count(value)
+b = ['Tom', 'Ali', 'Alex']
+x = b.count("Ali")
+print(x)
+
+a = [6, 5, 3, 9, 3]
+x = a.count(3)           # Return the number of times the value 3 appears int the list
+print(x)
+
