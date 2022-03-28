@@ -1,0 +1,57 @@
+# linear search
+
+pos = -1
+
+def search(list, n):
+    i = 0
+
+    while i< len(list):
+        if list[i] == n:
+            globals()['pos'] = i
+            return True
+        i = i + 1;
+
+    return False
+
+list = [4,8,2,9,]
+n = 9
+
+if search(list, n):
+    print("Found at ",pos+1)
+else:
+    print("Not Found")
+
+
+
+
+# binary search
+
+pos2 = -1
+
+def search(list2, n):
+
+    l = 0
+    u = len(list2)-1
+
+    while l <= u:
+        mid = (l+u) // 2
+
+        if list2[mid] == n:
+            globals()['pos2'] = mid
+            return True
+        else:
+            if list2[mid] < n:
+                l = mid+1;
+            else:
+                u = mid-1;
+
+    return False
+
+
+list2 = [3,4,6,9,11,32,66]
+n = 11
+
+if search(list2, n):
+    print("Found at ",pos2+1)
+else:
+    print("Not Found")

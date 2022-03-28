@@ -43,6 +43,17 @@ def week(i):
     return switcher.get(i,"Invalid day of week")
 
 
+    # get() method of dictionary data type returns
+    # value of passed argument if it is present
+    # in dictionary otherwise second argument will
+    # be assigned as default value of passed argument
+    
+ 
+# Driver program
+if __name__ == "__main__":
+    i=0
+    print (week(i))
+
 
 
 # just for example case 
