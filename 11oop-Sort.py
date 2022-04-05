@@ -46,7 +46,7 @@ print(l)
 
 
 print("--------------------------------------------------------")
-# merge sort
+# merge sort - ref w3s
 
 def mergeSort(nlist):
     print("Splitting ",nlist)
