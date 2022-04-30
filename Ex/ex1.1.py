@@ -1,3 +1,4 @@
+
 mark = []
 tot = 0
 print("Enter Marks Obtained in 5 Subjects: ")
