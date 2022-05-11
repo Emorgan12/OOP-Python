@@ -22,7 +22,7 @@ def menu():
         #collects and validates user input to ensure choice is in the list
         #converts the collected code to full name
 
-        menu_choice = input("Please enter the three letter destination code").upper()
+        menu_choice = input("Please enter the three letter destination code:").upper()
 
         code_list = ["ALC","AMS", "ATH", "BUD", "CGN" ,"DUB", "MUC", "CDG","RHO"]
         airport_list = ["Alicante" ,"Amsterdam", "Athens", "Budapest","Cologne","Dublin","Munich","Paris","Rhodes"]
@@ -69,7 +69,7 @@ month = get_date()
 
 #gets the main list of data that matches user search criteia and displays it
 def get_data():
-    df = pd.read_csv("Task3_data.csv")
+    df = pd.read_csv("C:/Users/ITC-LAB-T/Desktop/OOP-Python/Ex/Ex-T/Task3/Task3_data.csv")
     extract = df.loc[(df['Month'] == month) & (df['Destination'] == destination), df.columns != "Commission (%)"]
     print("We have found these flights that match your criteria:")
     return extract
