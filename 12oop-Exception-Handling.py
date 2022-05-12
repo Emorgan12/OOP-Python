@@ -1,5 +1,5 @@
 a = 6
-b = 8
+b = 0
 
 try:
     print("Open")

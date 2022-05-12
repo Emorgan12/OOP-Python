@@ -8,3 +8,7 @@ If those don't work - CMD
 where python
 \Local\Programs\Python\Python310\Scripts>
 python3 -m pip install pandas
+
+
+
+Jupyter notebook:
