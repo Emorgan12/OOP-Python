@@ -1,4 +1,4 @@
-from Chef import Chef
+from Chef import Chef # import Chef class
 from ChineseChef import ChineseChef
 
 
