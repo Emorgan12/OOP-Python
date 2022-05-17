@@ -1,5 +1,5 @@
 from Chef import Chef # import Chef class
-from ChineseChef import ChineseChef
+from ChineseChef import ChineseChef # import ChineseChef class
 
 
 myChef = Chef()
