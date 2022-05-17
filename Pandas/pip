@@ -2,7 +2,7 @@ pip install wheel
 pip install pandas
 pip install pandas --upgrade
 python -m pip install pandas
-python -m pip install pandas
+
 
 If those don't work - CMD
 where python
@@ -12,3 +12,4 @@ python3 -m pip install pandas
 
 
 Jupyter notebook:
+Will be updated soon.
