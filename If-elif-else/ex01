@@ -1,0 +1,6 @@
+# 1. If - Assign 5 to x. If x is bigger than 0, print "x is a positive number".
+
+# 2. If-else - Assign -5 to y. If x is bigger than 0, print "x is a positive number". Else, print "x is a negative number".
+
+# 3. If-elif-else - Assign 0 to z. If x is bigger than 0, print "x is a positive number". Else if x is zero, print "x is 0". Else, print "x is a negative number".
+

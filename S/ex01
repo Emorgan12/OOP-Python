@@ -1,0 +1,24 @@
+# 1. If
+x = 10
+if x > 0:
+  print("x is a positive number")
+
+
+#2. If-else
+y = -50
+if y > 0:
+  print("y is a positive number")
+else:
+  print("y is a negative number")
+
+
+#3. If-elif-else
+z = 0
+if z > 0:
+  print("z is a positive number")
+elif z == 0:
+  print("z is 0")
+else:
+  print("z is a negative number")
+
+  

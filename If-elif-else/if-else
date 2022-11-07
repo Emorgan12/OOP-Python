@@ -1,0 +1,7 @@
+x = 40 
+
+if x >= 50:
+  print("x bigger than or equals to 50.")
+else:
+  print("x is a number smaller than 50.")
+
