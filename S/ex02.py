@@ -3,6 +3,7 @@
 
 # 1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1000 and 3000 (both included).
 # Solution 1
+
 nl=[]
 for x in range(1000, 3001):
     if (x%7==0) and (x%5==0):
@@ -92,7 +93,7 @@ for x in numbers:
         if not x % 2:
     	     count_even+=1
         else:
-    	     count_odd+=1
+            count_odd+=1
 print("Number of even numbers :",count_even)
 print("Number of odd numbers :",count_odd)
 
@@ -269,3 +270,4 @@ for row in range(0,7):
             result_str=result_str+" "    
     result_str=result_str+"\n"    
 print(result_str);
+
