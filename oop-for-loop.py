@@ -1,3 +1,6 @@
+# for item in sequence:
+# statement(s) 
+
 for letter in "Syed":
     print(letter)
 
