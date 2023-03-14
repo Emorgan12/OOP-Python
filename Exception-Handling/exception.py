@@ -1,6 +1,8 @@
 a = 10
 b = 2
 
+# print(a/b)
+
 try:
     print(a/b)
 
@@ -17,23 +19,23 @@ finally:
 
 
 
-a = 10
-b = 2
+# a = 10
+# b = 2
 
-try:
-    print("Open")
-    print(a/b)
-    u = int(input("Enter a number"))
-    print(u)
+# try:
+#     print("Open")
+#     print(a/b)
+#     u = int(input("Enter a number"))
+#     print(u)
 
-except ZeroDivisionError as e:
-    print("Hey, You cannot divide a Number by Zero" , e)
+# except ZeroDivisionError as e:
+#     print("You cannot divide a Number by Zero" , e)
 
-except ValueError as e:
-    print("Invalid Input")
+# except ValueError as e:
+#     print("Invalid Input")
 
-except Exception as e:
-    print("Something went Wrong...")
+# except Exception as e:
+#     print("Something went Wrong...")
 
-finally:
-    print("Closed")
+# finally:
+#     print("Closed")
