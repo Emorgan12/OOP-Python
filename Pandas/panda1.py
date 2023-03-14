@@ -1,4 +1,4 @@
-read
+# read
 
 import pandas as pd
 
@@ -7,26 +7,27 @@ df = pd.read_csv('data.csv')
 print(df.to_string())
 
 
-import pandas as pd
 
-mydataset = {
-  'cars': ["BMW", "Volvo", "Ford"],
-  'passings': [3, 7, 2]
-}
+# import pandas as pd
 
-myvar = pd.DataFrame(mydataset)
+# mydataset = {
+#   'cars': ["BMW", "Volvo", "Ford"],
+#   'passings': [3, 7, 2]
+# }
 
-print(myvar)
+# myvar = pd.DataFrame(mydataset)
+
+# print(myvar)
 
 
 
-import pandas as pd
+# import pandas as pd
 
-pd.options.display.max_rows = 6
+# pd.options.display.max_rows = 6
 
-df = pd.read_csv('data.csv')
+# df = pd.read_csv('data.csv')
 
-print(df)
+# print(df)
 
 
 
