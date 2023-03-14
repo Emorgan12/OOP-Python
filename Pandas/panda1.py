@@ -19,14 +19,17 @@ print(myvar)
 
 # read
 
-# import pandas as pd
+import pandas as pd
 
-# df = pd.read_csv('C:/Users/ITC-LAB-T/Desktop/OOP-Python/Pandas/data.csv')
+df = pd.read_csv('C:/Users/ITC-LAB-T/Desktop/OOP-Python/Pandas/data.csv')
 
 # print(df.to_string())
 
 # # print(df) 
 
+# print(df.shape)
+
+# print(df.info)
 
 # rows
 
@@ -38,6 +41,8 @@ print(myvar)
 
 # print(df)
 
+# for columns
+# pd.options.display.max_columns = 6
 
 
 
