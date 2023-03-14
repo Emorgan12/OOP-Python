@@ -1,11 +1,12 @@
 # read
 
-import pandas as pd
+# import pandas as pd
 
-df = pd.read_csv('data.csv')
+# df = pd.read_csv('C:/Users/ITC-LAB-T/Desktop/OOP-Python/Pandas/data.csv')
 
-print(df.to_string())
+# print(df.to_string())
 
+# # print(df) 
 
 
 # import pandas as pd
@@ -21,13 +22,13 @@ print(df.to_string())
 
 
 
-# import pandas as pd
+import pandas as pd
 
-# pd.options.display.max_rows = 6
+pd.options.display.max_rows = 6
 
-# df = pd.read_csv('data.csv')
+df = pd.read_csv('C:/Users/ITC-LAB-T/Desktop/OOP-Python/Pandas/data.csv')
 
-# print(df)
+print(df)
 
 
 
